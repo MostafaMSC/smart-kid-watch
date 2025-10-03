@@ -3,9 +3,9 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 
 export const WalletCard = () => {
-  const balance = 45;
-  const limit = 100;
-  const todaySpent = 15;
+  const balance = 45000;
+  const limit = 100000;
+  const todaySpent = 15000;
   const percentage = (balance / limit) * 100;
 
   return (
@@ -16,7 +16,7 @@ export const WalletCard = () => {
             <Wallet className="w-5 h-5 text-primary" />
             المحفظة الرقمية
           </span>
-          <span className="text-2xl font-bold text-primary">{balance} ريال</span>
+          <span className="text-2xl font-bold text-primary">{balance.toLocaleString()} د.ع</span>
         </CardTitle>
       </CardHeader>
       <CardContent className="space-y-4">
@@ -33,11 +33,11 @@ export const WalletCard = () => {
             <TrendingDown className="w-4 h-4 text-warning" />
             <span className="text-sm font-medium">إنفاق اليوم</span>
           </div>
-          <span className="text-lg font-bold text-warning">{todaySpent} ريال</span>
+          <span className="text-lg font-bold text-warning">{todaySpent.toLocaleString()} د.ع</span>
         </div>
         
         <div className="text-xs text-muted-foreground">
-          الحد الأقصى المسموح: {limit} ريال
+          الحد الأقصى المسموح: {limit.toLocaleString()} د.ع
         </div>
       </CardContent>
     </Card>

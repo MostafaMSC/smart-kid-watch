@@ -5,6 +5,11 @@ import { BehaviorCard } from "@/components/dashboard/BehaviorCard";
 import { ExpenseChart } from "@/components/dashboard/ExpenseChart";
 import { AcademicPerformance } from "@/components/dashboard/AcademicPerformance";
 import { AttendanceCard } from "@/components/dashboard/AttendanceCard";
+import { SmartWatchCard } from "@/components/dashboard/SmartWatchCard";
+import { HealthMetrics } from "@/components/dashboard/HealthMetrics";
+import { PurchaseHistory } from "@/components/dashboard/PurchaseHistory";
+import { ActivityTimeline } from "@/components/dashboard/ActivityTimeline";
+import { WeeklyReport } from "@/components/dashboard/WeeklyReport";
 
 const Index = () => {
   return (
@@ -13,6 +18,7 @@ const Index = () => {
         <StudentHeader />
         
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-8">
+          {/* Main content area */}
           <div className="lg:col-span-2 space-y-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <WalletCard />
@@ -20,10 +26,16 @@ const Index = () => {
             </div>
             
             <ExpenseChart />
+            <PurchaseHistory />
+            <HealthMetrics />
             <AcademicPerformance />
+            <ActivityTimeline />
+            <WeeklyReport />
           </div>
           
+          {/* Sidebar */}
           <div className="space-y-6">
+            <SmartWatchCard />
             <LocationCard />
             <BehaviorCard />
           </div>
