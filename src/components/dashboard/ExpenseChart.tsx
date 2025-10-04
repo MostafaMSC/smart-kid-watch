@@ -3,13 +3,13 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from "recharts";
 
 const data = [
-  { day: "السبت", amount: 12000 },
-  { day: "الأحد", amount: 18000 },
-  { day: "الإثنين", amount: 15000 },
-  { day: "الثلاثاء", amount: 10000 },
-  { day: "الأربعاء", amount: 20000 },
-  { day: "الخميس", amount: 15000 },
-  { day: "اليوم", amount: 15000 },
+  { day: "السبت", amount: 3000 },
+  { day: "الأحد", amount: 4500 },
+  { day: "الإثنين", amount: 3500 },
+  { day: "الثلاثاء", amount: 2500 },
+  { day: "الأربعاء", amount: 5000 },
+  { day: "الخميس", amount: 3500 },
+  { day: "اليوم", amount: 3500 },
 ];
 
 export const ExpenseChart = () => {
@@ -56,15 +56,15 @@ export const ExpenseChart = () => {
         <div className="grid grid-cols-3 gap-4 mt-6 pt-4 border-t">
           <div className="text-center">
             <p className="text-xs text-muted-foreground mb-1">المجموع</p>
-            <p className="text-lg font-bold text-primary">105,000 د.ع</p>
+            <p className="text-lg font-bold text-primary">25,500 د.ع</p>
           </div>
           <div className="text-center">
             <p className="text-xs text-muted-foreground mb-1">المتوسط</p>
-            <p className="text-lg font-bold text-muted-foreground">15,000 د.ع</p>
+            <p className="text-lg font-bold text-muted-foreground">3,640 د.ع</p>
           </div>
           <div className="text-center">
             <p className="text-xs text-muted-foreground mb-1">الأعلى</p>
-            <p className="text-lg font-bold text-warning">20,000 د.ع</p>
+            <p className="text-lg font-bold text-warning">5,000 د.ع</p>
           </div>
         </div>
       </CardContent>

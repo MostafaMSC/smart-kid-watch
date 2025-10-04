@@ -11,6 +11,10 @@ import { PurchaseHistory } from "@/components/dashboard/PurchaseHistory";
 import { ActivityTimeline } from "@/components/dashboard/ActivityTimeline";
 import { WeeklyReport } from "@/components/dashboard/WeeklyReport";
 import { ProblemsOverview } from "@/components/dashboard/ProblemsOverview";
+import { SleepQuality } from "@/components/dashboard/SleepQuality";
+import { FocusLevel } from "@/components/dashboard/FocusLevel";
+import { ScreenTime } from "@/components/dashboard/ScreenTime";
+import { StressLevel } from "@/components/dashboard/StressLevel";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { LayoutDashboard, AlertCircle } from "lucide-react";
 
@@ -52,6 +56,10 @@ const Index = () => {
               {/* Sidebar */}
               <div className="space-y-6">
                 <SmartWatchCard />
+                <SleepQuality />
+                <FocusLevel />
+                <ScreenTime />
+                <StressLevel />
                 <LocationCard />
                 <BehaviorCard />
               </div>

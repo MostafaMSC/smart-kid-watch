@@ -3,9 +3,9 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 
 export const WalletCard = () => {
-  const balance = 45000;
-  const limit = 100000;
-  const todaySpent = 15000;
+  const balance = 12000;
+  const limit = 25000;
+  const todaySpent = 3500;
   const percentage = (balance / limit) * 100;
 
   return (

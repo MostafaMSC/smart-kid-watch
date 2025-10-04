@@ -4,17 +4,17 @@ import { PieChart, Pie, Cell, ResponsiveContainer, Legend, Tooltip } from "recha
 import { Badge } from "@/components/ui/badge";
 
 const purchaseData = [
-  { name: "وجبات", value: 45000, color: "hsl(var(--primary))" },
-  { name: "مشروبات", value: 25000, color: "hsl(var(--success))" },
-  { name: "وجبات خفيفة", value: 20000, color: "hsl(var(--warning))" },
-  { name: "قرطاسية", value: 15000, color: "hsl(var(--destructive))" },
+  { name: "وجبات", value: 10000, color: "hsl(var(--primary))" },
+  { name: "مشروبات", value: 6000, color: "hsl(var(--success))" },
+  { name: "وجبات خفيفة", value: 5000, color: "hsl(var(--warning))" },
+  { name: "قرطاسية", value: 4500, color: "hsl(var(--destructive))" },
 ];
 
 const recentPurchases = [
-  { item: "وجبة غداء", amount: 8000, time: "12:30", category: "وجبات" },
-  { item: "عصير برتقال", amount: 3000, time: "10:15", category: "مشروبات" },
-  { item: "شوكولاتة", amount: 2000, time: "09:45", category: "وجبات خفيفة" },
-  { item: "دفتر ملاحظات", amount: 2000, time: "08:30", category: "قرطاسية" },
+  { item: "وجبة غداء", amount: 2000, time: "12:30", category: "وجبات" },
+  { item: "عصير برتقال", amount: 750, time: "10:15", category: "مشروبات" },
+  { item: "شوكولاتة", amount: 500, time: "09:45", category: "وجبات خفيفة" },
+  { item: "دفتر ملاحظات", amount: 1500, time: "08:30", category: "قرطاسية" },
 ];
 
 export const PurchaseHistory = () => {

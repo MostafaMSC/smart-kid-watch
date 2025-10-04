@@ -15,19 +15,19 @@ const students = [
     id: 1,
     name: "أحمد محمد العلي",
     grade: "الصف السادس - الفصل أ",
-    avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=400&h=400&fit=crop",
   },
   {
     id: 2,
     name: "سارة محمد العلي",
     grade: "الصف الرابع - الفصل ب",
-    avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1587691592099-24045742c181?w=400&h=400&fit=crop",
   },
   {
     id: 3,
     name: "علي محمد العلي",
     grade: "الصف الثاني - الفصل أ",
-    avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1519340241574-2cec6aef0c01?w=400&h=400&fit=crop",
   },
 ];
 
